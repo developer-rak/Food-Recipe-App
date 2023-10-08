@@ -15,6 +15,7 @@ img {
 html {
     font-family: 'Nunito';
     font-size: 12px;
+    font-weight: 600;
 }
 
 section {
@@ -86,4 +87,39 @@ form i {
     width: 100%;
     height: 300px;
     border-radius: 4px;
+}
+
+.item .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item .title {
+    color: whitesmoke;
+    margin: 20px 10px 0 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.view-button {
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    padding: 8px 0;
+    background-color: #404041;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.item-data {
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: .08rem;
+    line-height: 1.5rem;
 }
