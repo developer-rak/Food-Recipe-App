@@ -122,4 +122,31 @@ form i {
     font-size: 1.2rem;
     letter-spacing: .08rem;
     line-height: 1.5rem;
+    background-color: hsla(43, 74%, 49%, 0.3);
+    border-radius: 4px;
+}
+
+section .copy {
+    margin-top: 380px;
+    color: goldenrod;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+section .copy a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.container.initial .brand {
+    font-size: 7rem;
+}
+
+.container.initial form {
+    max-width: 800px;
+}
+
+.container.initial form input {
+    padding: 20px;
+    font-size: 3rem;
 }
