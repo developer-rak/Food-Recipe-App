@@ -24,8 +24,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(26, 26, 27);
+    position: relative;
 }
 
 .container {
@@ -126,16 +130,23 @@ form i {
     border-radius: 4px;
 }
 
-section .copy {
-    margin-top: 380px;
+.container .copy {
+    display: flex;
+    bottom: 10px;
+    right: 15px;
     color: goldenrod;
-    font-size: 1.8rem;
-    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgba(255, 166, 0, 0.2);
+    box-shadow: 0 0 1.5rem rgba(255, 166, 0, 0.436);
+    border-radius: 4px;
+    padding: 0 5px;
+    position: absolute;
 }
 
-section .copy a {
+.container .copy a {
     color: goldenrod;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .container.initial .brand {
@@ -149,4 +160,21 @@ section .copy a {
 .container.initial form input {
     padding: 20px;
     font-size: 3rem;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .container.initial .brand {
+        font-size: 5rem;
+    }
+
+    .container.initial form input {
+        padding: 15px;
+        font-size: 2rem;
+    }
+
+    form i {
+        width: 9%;
+        margin: -10px;
+    }
 }
