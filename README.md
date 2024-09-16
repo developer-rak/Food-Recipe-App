@@ -2,7 +2,7 @@
 
 ### _recipe app using javascript !!_
 
-### Link :link: 
+### Link :link: https://rak-foodrecipe.netlify.app/
 
 ## Interface
 <img src="img.jpg">
